@@ -4,7 +4,7 @@ Generates Go struct types based on a [JSON Schema](http://json-schema.org/).
 
 ## Installation
 ```
-$ go get github.com/idubinskiy/schematyper
+$ go install github.com/tkitsunai/schematyper
 ```
 
 ## Usage

@@ -14,10 +14,9 @@ import (
 	"strings"
 	"unicode"
 
-	"gopkg.in/alecthomas/kingpin.v2"
-
+	"github.com/alecthomas/kingpin/v2"
 	"github.com/gedex/inflector"
-	"github.com/idubinskiy/schematyper/stringset"
+	"github.com/tkitsunai/schematyper/stringset"
 )
 
 //go:generate schematyper --root-type=metaSchema --prefix=meta metaschema.json
